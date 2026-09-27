@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Large/generated training data
+data/raw/
+data/processed/
+
+# Tokenizers generated locally
+data/tokenizer.json
+data/tokenizer_recovered.json
+
+# Model checkpoints
+checkpoints/
+
+# Training outputs
+results/
+logs/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
